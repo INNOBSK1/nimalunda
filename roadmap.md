@@ -1,0 +1,16 @@
+# Requested updates
+- [x] Diagnose Google cancellation: reproduced Google redirect_uri_mismatch followed by cancellation when its popup closes; signup agreement controls passed.
+- [x] Review uploaded Auth.tsx and stabilize sign-in/sign-up redirects directly to the dashboard.
+- [x] Resolve the uploaded external-backend requirement: user chose to keep existing Lovable Cloud accounts.
+- [x] Fix Google button initiation for fbmstwo.netlify.app without changing email login or authentication settings.
+- [x] Verify production-origin OAuth initiation and document exact button changes.
+- [ ] Complete Google login after deploying the updated source to Netlify and authorizing https://oauth.lovable.app/callback in the existing Google OAuth client (Google currently returns redirect_uri_mismatch).
+- [x] Single-section auth page with logo and background.
+- [x] Clear signup terms and agreement presentation.
+- [x] Sidebar-only embedded About Us and logout.
+- [x] Verify the page and navigation flows.
+- [ ] Restyle login using the uploaded green-horizon reference.
+- [ ] Adapt uploaded ZIP styling with a compact, non-full-screen signup panel.
+- [x] Check Google login initiation and both signup agreement controls; completion awaits the callback configuration task above.
+- [ ] Explain secure setup of the uploaded Google credentials.
+- [ ] Add emailed reset-code recovery and a public new-password page.
